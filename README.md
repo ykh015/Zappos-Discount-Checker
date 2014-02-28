@@ -33,9 +33,10 @@ It contains all the database related operations.
 **Furure Improvements:**
 
 1. Currently the app checks the discount when it is started. Later, we can create a service in the background which will periodically check the dicounts of the items and then send notifications.
-2. The API key is present in DiscountCheker.java and Product_List.java. We can create a string resource of the API key.
+2. The API key is present in DiscountCheker.java and Product_List.java. We can create a string resource for the API key.
 3. The user interface can be vastly improved.
 
 
 **Extras**
+
 1. Used GSON for JSON parsing
