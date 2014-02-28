@@ -40,3 +40,4 @@ It contains all the database related operations.
 **Extras**
 
 1. Used GSON for JSON parsing
+2. APK file can be downloaded from the link
