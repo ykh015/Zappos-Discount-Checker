@@ -39,5 +39,5 @@ It contains all the database related operations.
 
 **Extras**
 
-1. Used GSON for JSON parsing
+1. Add Gson and android-support-v4 jar files
 2. APK file can be downloaded from the link
