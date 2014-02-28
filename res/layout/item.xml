@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#88B395">
+
+    <TextView
+        android:id="@+id/pname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textColor="#8A2908" />
+
+    <TextView
+        android:id="@+id/bname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="20dp" 
+         android:textColor="#886A08"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+         android:layout_gravity="center_horizontal" 
+         android:layout_marginTop="30dp"
+         />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:textColor="#8A2908"
+        />
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:layout_marginTop="30dp"
+        android:textColor="#886A08"
+        />
+    
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/tv44"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Original price"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:textColor="#8A2908"/>
+    <TextView
+        android:id="@+id/oprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Original price"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:layout_marginTop="10dp"
+                android:textColor="#886A08"
+        
+       />
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/tv42"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Discount"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:textColor="#8A2908"/>
+    <TextView
+        android:id="@+id/discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Original price"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:layout_marginTop="10dp"
+                android:textColor="#886A08"
+        
+       />
+</LinearLayout>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Mark as Favourite"
+         android:layout_marginLeft="80dp"
+         android:layout_marginTop="10dp"
+         android:background="#90143D"
+         android:textColor="#FFFFFF" />
+
+</LinearLayout>
